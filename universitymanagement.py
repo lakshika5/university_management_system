@@ -73,11 +73,11 @@ def menu():
 
     while True:
         print("\n------- UNIVERSITY MANAGEMENT SYSTEM -------")
-        print("1. Add Student")
-        print("2. View Students")
-        print("3. Delete Student")
+        print("1. add student")
+        print("2. view students")
+        print("3. delete student")
         print("4. Exit")
-        choice = input("Enter your choice: ")
+        choice = input("enter your choice: ")
 
         if choice == "1":
             name = input("Enter student name: ")
